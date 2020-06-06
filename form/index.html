@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<title>Document</title>
+	</head>
+	<body>
+		<div class="container">
+			<form action="submit" id="form">
+				<div class="form-control">
+					<label for="name-box" class="label-title">Name</label>
+					<input type="text" id="name-box" class="input-box" />
+					<span class="error-msg">Error</span>
+				</div>
+				<div class="form-control">
+					<label for="id-box" class="label-title">ID</label>
+					<input type="text" class="input-box" id="id-box" />
+					<span class="error-msg">Error</span>
+				</div>
+				<div class="form-control">
+					<label for="password-box" class="label-title">Password</label>
+					<input type="password" class="input-box" id="password-box" />
+					<span class="error-msg">Error</span>
+				</div>
+				<div class="form-control">
+					<label for="confirmation-box" class="label-title"
+						>Password Confirmation</label
+					>
+					<input id="confirmation-box" type="password" class="input-box" />
+					<span class="error-msg">Error</span>
+				</div>
+
+				<button>Submit</button>
+			</form>
+		</div>
+		<script src="index.js"></script>
+	</body>
+</html>
