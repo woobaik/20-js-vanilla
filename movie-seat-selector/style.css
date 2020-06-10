@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+:root {
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Roboto", sans-serif;
+	color: cornsilk;
+	font-size: 15px;
+	background-color: rgb(49, 4, 51);
+}
+
+.app {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.title {
+	padding-bottom: 2rem;
+	font-size: 1.5rem;
+}
+
+.movie-selector {
+}
+
+.category-container {
+	background-color: rgb(41, 15, 42);
+}
+
+.category {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-left: 0;
+}
+
+.category-list {
+	list-style-type: none;
+	padding-left: 1rem;
+}
+
+.category-list .seat.available:hover {
+	transform: none;
+}
+
+.theaters {
+	margin-bottom: 2rem;
+}
+
+.seats {
+}
+.row {
+	display: flex;
+}
+
+.seat {
+	width: 20px;
+	height: 13px;
+	background-color: white;
+	margin: 5px;
+	border-top-left-radius: 7px;
+	border-top-right-radius: 7px;
+}
+
+.seat:nth-of-type(2) {
+	margin-right: 2rem;
+}
+
+.seat:nth-last-of-type(2) {
+	margin-left: 2rem;
+}
+
+.seat.available {
+	background-color: rgb(255, 255, 255);
+	cursor: pointer;
+}
+
+.seat.available:hover {
+	transform: scale(1.2);
+}
+
+.seat.occupied {
+	background-color: rgb(98, 98, 98);
+}
+
+.seat.selected {
+	background-color: rgb(119, 243, 136);
+}
+
+.count {
+	color: chocolate;
+}
+
+.total {
+	color: cornflowerblue;
+}

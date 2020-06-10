@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Menu and Modal</title>
+        <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+        integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ="
+        crossorigin="anonymous"
+      />
+        <link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+        <aside class='left-bar' id='left-bar'>
+            <div class="close" id='close-nav'>
+                x
+            </div>
+            <div class='profile'>
+                <img src="https://randomuser.me/api/portraits/men/10.jpg" alt="user" />
+                <div class="nav-link name">Joungwoo Baik</div>
+                <div class='nav-link'>Profile</div>
+                <div class='nav-link'>Contact</div>
+            </>
+        </aside>
+        <div class="main-container">
+            <header>
+                <div class="toggle" id='toggle'>
+                    <button id="toggle" class="toggle">
+                        <i class="fa fa-bars fa-2x"></i>
+                      </button>
+                </div>
+                <h1>My Landing Page</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                <button class='btn' id='sign-up'>Sign Up</button>
+            </header>
+            <main>
+                <div class="main-container">
+                    <h1 class="title">What is this Landing Page about?</h1>
+                    <p class="description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, id!
+                        Eaque ducimus nemo quod praesentium debitis adipisci libero, officiis
+                        laborum, totam optio architecto amet soluta qui! Vero laboriosam
+                        officia consequuntur!
+                    </p>
+                </div>
+                <div class="main-container">
+                    <h1 class="title">Tell Me More</h1>
+                    <p class="description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, id!
+                        Eaque ducimus nemo quod praesentium debitis adipisci libero, officiis
+                        laborum, totam optio architecto amet soluta qui! Vero laboriosam
+                        officia consequuntur!
+                    </p>
+                </div>
+                
+                <div class="main-container">
+                    <h1 class="title">Benefits</h1>
+                    <p class="description">
+                        <ul>
+                            <li>Lifetime Access</li>
+                            <li>40 Day Money Back</li>
+                            <li>Tailored Customer Support</li>
+                         </ul>
+                    </p>
+                </div>
+            </main>
+        </div>
+        <div class="modal" id='modal'>
+            <div class='modal-form'>
+                Sign Up
+
+                <form action="" class='form'>
+                    <div class="form-control">
+                        <label for="name">Name</label>
+                        <input type="text">
+                    </div>                    <div class="form-control">
+                        <label for="name">Name</label>
+                        <input type="text">
+                    </div>                    <div class="form-control">
+                        <label for="name">Name</label>
+                        <input type="text">
+                    </div>                    <div class="form-control">
+                        <label for="name">Name</label>
+                        <input type="text">
+                    </div>                    <div class="form-control">
+                        <label for="name">Name</label>
+                        <input type="text">
+                    </div>
+                    <div class='submit'>
+                        <input type="submit" value="Value">
+                    </div>
+                    
+                </form>
+            </div>
+        </div>
+		
+    </body>
+    <script src="index.js"></script>
+</html>
