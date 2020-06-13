@@ -1,0 +1,15 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	background-color: rgb(121, 25, 25);
+	color: white;
+}
+
+.game-container {
+	stroke: white;
+	stroke-width: 4px;
+	stroke-linecap: round;
+}
